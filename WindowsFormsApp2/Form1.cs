@@ -15,7 +15,6 @@ namespace WindowsFormsApp2
         Form3 form3 = new Form3();
         string directory = string.Empty;
         public static Dictionary<string, Data> exceldata = new Dictionary<string, Data>();
-        Dictionary<string, Data> exceldatatoexport = new Dictionary<string, Data>();
         int count = 0;
         public Form1()
         {
@@ -69,12 +68,12 @@ namespace WindowsFormsApp2
             dt.Columns.Add("Ho va ten", typeof(string));
             dt.Columns.Add("Chuc vu", typeof(string));
             dt.Columns.Add("Don vi", typeof(string));
+            dt.Columns.Add("So Ghe", typeof(string));
             dt.Columns.Add("Thoi gian vao", typeof(string));
-            dt.Columns.Add("SoGhe", typeof(string));
             int count = 1;
-            foreach(KeyValuePair<string, Data> data in exceldatatoexport)
+            foreach(KeyValuePair<string, Data> data in exceldata)
             {
-                dt.Rows.Add(count, data.Value.MaDaiBieu, data.Value.HoVaTen, data.Value.ChucVu, data.Value.DonVi, data.Value.ThoiGian, data.Value.SoGhe);
+                dt.Rows.Add(count, data.Value.MaDaiBieu, data.Value.HoVaTen, data.Value.ChucVu, data.Value.DonVi, data.Value.SoGhe, data.Value.ThoiGian);
                 count++;
             }
             worksheet.Import(dt, true, 0, 0);
@@ -126,30 +125,20 @@ namespace WindowsFormsApp2
             if (e.KeyCode == Keys.Enter)
             {
                 string barcode = txtCode.Text;
-                //string sameBarcode = string.Empty;
                 if (barcode != string.Empty)
                 {
                     if (exceldata.ContainsKey(barcode)) //barcode da diem danh roi
                     {
-                        if (!exceldatatoexport.ContainsKey(barcode))
+                        Data data = exceldata[barcode];
+
+                        txtCode.Text = string.Empty;
+                        if(data.ThoiGian == string.Empty)
                         {
-                            Data data = exceldata[barcode];
-
-                            txtCode.Text = string.Empty;
-
                             count++;
                             int total = exceldata.Count;
                             lbNumber.Text = "" + count + " / " + total + "";
 
-                            exceldatatoexport.Add(barcode, new Data
-                            {
-                                MaDaiBieu = barcode,
-                                HoVaTen = data.HoVaTen,
-                                ChucVu = data.ChucVu,
-                                DonVi = data.DonVi,
-                                ThoiGian = DateTime.Now.ToString(),
-                                SoGhe = data.SoGhe
-                            });
+                            data.ThoiGian = DateTime.Now.ToString();
 
                             if (form2.isShowing)
                             {
@@ -167,9 +156,8 @@ namespace WindowsFormsApp2
                         }
                         else
                         {
-                            MessageBox.Show("Trùng barcode", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                            txtCode.Text = string.Empty;
-                        }
+                            MessageBox.Show("Người này đã điểm danh.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }                      
                     }
 
                 }

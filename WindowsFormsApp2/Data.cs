@@ -19,7 +19,7 @@ namespace WindowsFormsApp2
             HoVaTen = string.Empty;
             ChucVu = string.Empty;
             DonVi = string.Empty;
-            ThoiGian = null;
+            ThoiGian = string.Empty;
             SoGhe = string.Empty;
         }
 

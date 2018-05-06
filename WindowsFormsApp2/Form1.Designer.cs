@@ -79,7 +79,7 @@
             // 
             this.btnImportExcel.BackColor = System.Drawing.Color.White;
             this.btnImportExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnImportExcel.Image = global::WindowsFormsApp2.Properties.Resources.importdata;
+            this.btnImportExcel.Image = global::PMDiemDanh.Properties.Resources.importdata;
             this.btnImportExcel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnImportExcel.Location = new System.Drawing.Point(8, 16);
             this.btnImportExcel.Name = "btnImportExcel";
@@ -93,7 +93,7 @@
             // 
             this.btnExportExcel.BackColor = System.Drawing.Color.White;
             this.btnExportExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExportExcel.Image = global::WindowsFormsApp2.Properties.Resources.excel;
+            this.btnExportExcel.Image = global::PMDiemDanh.Properties.Resources.excel;
             this.btnExportExcel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnExportExcel.Location = new System.Drawing.Point(8, 57);
             this.btnExportExcel.Name = "btnExportExcel";
@@ -144,24 +144,26 @@
             // 
             // btnCloseForm2
             // 
+            this.btnCloseForm2.BackColor = System.Drawing.Color.White;
             this.btnCloseForm2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCloseForm2.Location = new System.Drawing.Point(48, 60);
             this.btnCloseForm2.Name = "btnCloseForm2";
-            this.btnCloseForm2.Size = new System.Drawing.Size(75, 29);
+            this.btnCloseForm2.Size = new System.Drawing.Size(116, 29);
             this.btnCloseForm2.TabIndex = 0;
-            this.btnCloseForm2.Text = "Tắt form";
-            this.btnCloseForm2.UseVisualStyleBackColor = true;
+            this.btnCloseForm2.Text = "Tắt MH Thông tin";
+            this.btnCloseForm2.UseVisualStyleBackColor = false;
             this.btnCloseForm2.Click += new System.EventHandler(this.btnCloseForm2_Click);
             // 
             // btnOpenForm2
             // 
+            this.btnOpenForm2.BackColor = System.Drawing.Color.White;
             this.btnOpenForm2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpenForm2.Location = new System.Drawing.Point(48, 17);
             this.btnOpenForm2.Name = "btnOpenForm2";
-            this.btnOpenForm2.Size = new System.Drawing.Size(75, 28);
+            this.btnOpenForm2.Size = new System.Drawing.Size(116, 28);
             this.btnOpenForm2.TabIndex = 0;
-            this.btnOpenForm2.Text = "Mở form";
-            this.btnOpenForm2.UseVisualStyleBackColor = true;
+            this.btnOpenForm2.Text = "Mở MH Thông tin";
+            this.btnOpenForm2.UseVisualStyleBackColor = false;
             this.btnOpenForm2.Click += new System.EventHandler(this.btnOpenForm2_Click);
             // 
             // tabPage3
@@ -178,24 +180,26 @@
             // 
             // btnCloseForm3
             // 
+            this.btnCloseForm3.BackColor = System.Drawing.Color.White;
             this.btnCloseForm3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCloseForm3.Location = new System.Drawing.Point(48, 60);
             this.btnCloseForm3.Name = "btnCloseForm3";
-            this.btnCloseForm3.Size = new System.Drawing.Size(75, 23);
+            this.btnCloseForm3.Size = new System.Drawing.Size(115, 26);
             this.btnCloseForm3.TabIndex = 1;
-            this.btnCloseForm3.Text = "Tắt form";
-            this.btnCloseForm3.UseVisualStyleBackColor = true;
+            this.btnCloseForm3.Text = "Tắt MH Chỗ ngồi";
+            this.btnCloseForm3.UseVisualStyleBackColor = false;
             this.btnCloseForm3.Click += new System.EventHandler(this.btnCloseForm3_Click);
             // 
             // btnOpenForm3
             // 
+            this.btnOpenForm3.BackColor = System.Drawing.Color.White;
             this.btnOpenForm3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnOpenForm3.Location = new System.Drawing.Point(48, 17);
             this.btnOpenForm3.Name = "btnOpenForm3";
-            this.btnOpenForm3.Size = new System.Drawing.Size(75, 23);
+            this.btnOpenForm3.Size = new System.Drawing.Size(115, 26);
             this.btnOpenForm3.TabIndex = 2;
-            this.btnOpenForm3.Text = "Mở form";
-            this.btnOpenForm3.UseVisualStyleBackColor = true;
+            this.btnOpenForm3.Text = "Mở MH Chỗ ngồi";
+            this.btnOpenForm3.UseVisualStyleBackColor = false;
             this.btnOpenForm3.Click += new System.EventHandler(this.btnOpenForm3_Click);
             // 
             // Form1

@@ -106,7 +106,7 @@
             this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WindowsFormsApp2.Properties.Resources.UI;
+            this.BackgroundImage = global::PMDiemDanh.Properties.Resources.UI;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(873, 461);
             this.Controls.Add(this.lbDonVi);

@@ -1,6 +1,3 @@
-D:\PM Diem Danh\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe.config
-D:\PM Diem Danh\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.exe
-D:\PM Diem Danh\WindowsFormsApp2\bin\Debug\WindowsFormsApp2.pdb
 D:\PM Diem Danh\WindowsFormsApp2\bin\Debug\DevExpress.Docs.v17.1.dll
 D:\PM Diem Danh\WindowsFormsApp2\bin\Debug\DevExpress.Office.v17.1.Core.dll
 D:\PM Diem Danh\WindowsFormsApp2\bin\Debug\DevExpress.Spreadsheet.v17.1.Core.dll
@@ -78,13 +75,15 @@ D:\PM Diem Danh\WindowsFormsApp2\bin\Debug\de\DevExpress.Xpo.v17.1.resources.dll
 D:\PM Diem Danh\WindowsFormsApp2\bin\Debug\es\DevExpress.Xpo.v17.1.resources.dll
 D:\PM Diem Danh\WindowsFormsApp2\bin\Debug\ja\DevExpress.Xpo.v17.1.resources.dll
 D:\PM Diem Danh\WindowsFormsApp2\bin\Debug\ru\DevExpress.Xpo.v17.1.resources.dll
-D:\PM Diem Danh\WindowsFormsApp2\obj\Debug\PM Diem Danh.csprojResolveAssemblyReference.cache
 D:\PM Diem Danh\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form1.resources
 D:\PM Diem Danh\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
 D:\PM Diem Danh\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form3.resources
-D:\PM Diem Danh\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
 D:\PM Diem Danh\WindowsFormsApp2\obj\Debug\PM Diem Danh.csproj.GenerateResource.cache
 D:\PM Diem Danh\WindowsFormsApp2\obj\Debug\PM Diem Danh.csproj.CoreCompileInputs.cache
 D:\PM Diem Danh\WindowsFormsApp2\obj\Debug\PM Diem Danh.csproj.CopyComplete
-D:\PM Diem Danh\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
-D:\PM Diem Danh\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+D:\PM Diem Danh\WindowsFormsApp2\obj\Debug\PMDiemDanh.Properties.Resources.resources
+D:\PM Diem Danh\WindowsFormsApp2\bin\Debug\PMDiemDanh.exe.config
+D:\PM Diem Danh\WindowsFormsApp2\bin\Debug\PMDiemDanh.exe
+D:\PM Diem Danh\WindowsFormsApp2\bin\Debug\PMDiemDanh.pdb
+D:\PM Diem Danh\WindowsFormsApp2\obj\Debug\PMDiemDanh.exe
+D:\PM Diem Danh\WindowsFormsApp2\obj\Debug\PMDiemDanh.pdb

@@ -63,8 +63,25 @@ namespace WindowsFormsApp2
                 string directory = AppDomain.CurrentDomain.BaseDirectory;
                 string filepath = "" + directory + "\\Data\\sitmapempty.bmp";
                 BackgroundImage = Image.FromFile(filepath);
-
-                
+                LoadNguoiDaDiemDanh(Form1.exceldata);
+            }
+        }
+        
+        private void LoadNguoiDaDiemDanh(Dictionary<string, Data> datas)
+        {
+            if(datas != null)
+            {
+                foreach (var item in datas.Values)
+                {
+                    if (item.ThoiGian != string.Empty)
+                    {
+                        Label lbl = ReturnLabel(item.SoGhe);
+                        if (lbl != null)
+                        {
+                            lbl.BackColor = Color.Yellow;
+                        }
+                    }
+                }
             }
         }
 
@@ -144,7 +161,7 @@ namespace WindowsFormsApp2
         }
 
         public void DiemDanh(Data data)
-        {
+        {            
             if (data != null)
             {
                 Label lbl = ReturnLabel(data.SoGhe);
